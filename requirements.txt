@@ -2,5 +2,6 @@ django
 gunicorn
 django-rest-framework
 djoser
+pillow
 django-environ
 psycopg2
