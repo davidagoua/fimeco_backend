@@ -2,3 +2,5 @@ django
 unicorn
 django-rest-framework
 djoser
+django-environ
+psycopg2
