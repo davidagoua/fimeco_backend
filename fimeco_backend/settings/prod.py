@@ -2,7 +2,7 @@ from .settings import *
 
 
 
-ALLOWED_HOSTS = ['192.168.1.3','localhost','127.0.0.1', 'afriqconsulting.site']
+ALLOWED_HOSTS = ['192.168.1.3','localhost','127.0.0.1','afriqconsulting.site' , '154.56.60.195']
 
 DATABASES = {
     'default': {
