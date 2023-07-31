@@ -1,5 +1,5 @@
 django
-unicorn
+gunicorn
 django-rest-framework
 djoser
 django-environ
