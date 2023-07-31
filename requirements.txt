@@ -1,0 +1,4 @@
+django
+unicorn
+django-rest-framework
+djoser
