@@ -5,7 +5,7 @@ WORKDIR /app
 COPY ./requirements.txt /app/
 RUN python3 -m pip install -r requirements.txt 
 COPY . /app/
-
+RUN python3 manage.py collectstatic --noinput
 EXPOSE 8002
 
-CMD [ "gunicorn", "fimeco_backend.wsgi:app", "--bind 0.0.0.0", "--port 8001" ]
+CMD [ "gunicorn", "fimeco_backend.wsgi:app", "--bind 0.0.0.0:8002" ]
