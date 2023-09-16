@@ -22,7 +22,7 @@ class Circuit(models.Model):
     district = models.ForeignKey(District, on_delete=models.SET_NULL, null=True)
 
     def __str__(self):
-        return self.district +' '+ self.slug
+        return self.district.nom +' '+ self.slug
 
 
 class EgliseLocal(models.Model):
